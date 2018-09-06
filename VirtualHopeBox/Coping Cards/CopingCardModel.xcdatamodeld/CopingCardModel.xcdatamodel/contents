@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CopingCard" representedClassName="CopingCard" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="problem" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="copingSkills" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="CopingSkill" inverseName="copingCard" inverseEntity="CopingSkill" syncable="YES"/>
+        <relationship name="symptoms" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Symptom" inverseName="copingCard" inverseEntity="Symptom" syncable="YES"/>
+    </entity>
+    <entity name="CopingSkill" representedClassName="CopingSkill" syncable="YES">
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="skill" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="copingCard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CopingCard" inverseName="copingSkills" inverseEntity="CopingCard" syncable="YES"/>
+    </entity>
+    <entity name="Symptom" representedClassName="Symptom" syncable="YES">
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="symptom" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="copingCard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CopingCard" inverseName="symptoms" inverseEntity="CopingCard" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CopingCard" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="CopingSkill" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Symptom" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

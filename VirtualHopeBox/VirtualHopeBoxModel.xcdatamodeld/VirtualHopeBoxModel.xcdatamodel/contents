@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ActivityIdea" representedClassName="ActivityIdea" syncable="YES">
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="verb" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AudioReminder" representedClassName="AudioReminder" syncable="YES">
+        <attribute name="artist" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="filepath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="missing" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="persistentID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LogEntry" representedClassName="LogEntry" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Quote" representedClassName="Quote" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="userCreated" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="SupportContact" representedClassName="SupportContact" syncable="YES">
+        <attribute name="abRecordID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="VisualReminder" representedClassName="VisualReminder" syncable="YES">
+        <attribute name="assetCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="assetPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assetType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnailPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ActivityIdea" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="AudioReminder" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="LogEntry" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Quote" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="SupportContact" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="VisualReminder" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

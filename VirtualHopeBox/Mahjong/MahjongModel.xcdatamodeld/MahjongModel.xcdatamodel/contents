@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Xcode 4.1">
+    <entity name="MahjongLayout" representedClassName="MahjongLayout" syncable="YES">
+        <attribute name="layout" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="puzzles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MahjongPuzzle" inverseName="layout" inverseEntity="MahjongPuzzle" syncable="YES"/>
+    </entity>
+    <entity name="MahjongPuzzle" representedClassName="MahjongPuzzle" syncable="YES">
+        <attribute name="complete" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="current_state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="default_state" attributeType="String" syncable="YES"/>
+        <attribute name="difficulty" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="order" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="layout" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MahjongLayout" inverseName="puzzles" inverseEntity="MahjongLayout" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MahjongLayout" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="MahjongPuzzle" positionX="160" positionY="192" width="128" height="135"/>
+    </elements>
+</model>

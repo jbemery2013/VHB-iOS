@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>498983F5-3FF5-4B6A-A759-9ACE2E606695</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VirtualHopeBox</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>96AD5B0C2D4875A4B683F4FE0CC167671F944FBC</key>
+		<string>155.220.124.68:/git/mobile/ios/VirtualHopeBox.git</string>
+		<key>A8F9EB29309480C6B0E1246565FACD5371D0F27B</key>
+		<string>ssh://git.t2.local/git/mobile/crossplatform/sqlcipher.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VirtualHopeBox.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>96AD5B0C2D4875A4B683F4FE0CC167671F944FBC</key>
+		<string>../..</string>
+		<key>A8F9EB29309480C6B0E1246565FACD5371D0F27B</key>
+		<string>../../../sqlcipher</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>155.220.124.68:/git/mobile/ios/VirtualHopeBox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>96AD5B0C2D4875A4B683F4FE0CC167671F944FBC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A8F9EB29309480C6B0E1246565FACD5371D0F27B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sqlcipher</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>96AD5B0C2D4875A4B683F4FE0CC167671F944FBC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VirtualHopeBox</string>
+		</dict>
+	</array>
+</dict>
+</plist>

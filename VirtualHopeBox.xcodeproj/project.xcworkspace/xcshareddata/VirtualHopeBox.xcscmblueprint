@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "96AD5B0C2D4875A4B683F4FE0CC167671F944FBC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "96AD5B0C2D4875A4B683F4FE0CC167671F944FBC" : 0,
+    "A8F9EB29309480C6B0E1246565FACD5371D0F27B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "498983F5-3FF5-4B6A-A759-9ACE2E606695",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "96AD5B0C2D4875A4B683F4FE0CC167671F944FBC" : "VirtualHopeBox",
+    "A8F9EB29309480C6B0E1246565FACD5371D0F27B" : "sqlcipher"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VirtualHopeBox",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VirtualHopeBox.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "155.220.124.68:\/git\/mobile\/ios\/VirtualHopeBox.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96AD5B0C2D4875A4B683F4FE0CC167671F944FBC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/git.t2.local\/git\/mobile\/crossplatform\/sqlcipher.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A8F9EB29309480C6B0E1246565FACD5371D0F27B"
+    }
+  ]
+}
